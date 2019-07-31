@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ita">
+<head>
+  <title>Contacts</title>
+  <meta charset="utf-8"> 
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/vetrinahome.css">
+  <link rel="stylesheet" href="styles/email.css">
+</head>
+
+<body >
+  <div class="container-fluid">
+    <div class="row">
+       <div class="col-sm-4" style="float: left">
+           <nav class="nav navbar-expand-lg navbar-light " style=" height: 100%; background-color: #afcbe6; ">
+                   <button class="navbar-toggler ml-auto" type="button" style="border: none" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>    
+                   </button>
+                                  
+                                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                                      <ul class="nav flex-column navbar-nav ml-auto mr-auto">
+
+                                        <li class="nav-item">
+                                            <a class="navbar-brand" href="vetrina.html">Home<span class="sr-only">(current)</span></a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                          <a class="navbar-brand" href="chisono.html">Chi siamo?<span class="sr-only">(current)</span></a>
+                                        </li>
+                                    
+                                    
+                                        <li class="nav-item">
+                                          <a class="navbar-brand" href="dovesiamo.html">Dove siamo?</a>
+                                        </li>
+                                   
+                                        <li class="nav-item dropdown">
+                                          <a class="navbar-brand dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Prodotti
+                                          </a>
+                                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="prodotti.html">Galleria</a>
+                                                <a class="dropdown-item" href="#">Info Prodotti</a>                            
+                                          </div>
+                                        </li>
+                                      </ul>
+                                     
+                                    </div>
+                                  </nav>
+                    
+                    </div>
+        
+                    <div class="col-sm-8" style="float: right;  margin-top: 5%; padding-left: 30px; padding-right: 30px">
+                            <form name="formmail" method="post" onsubmit="sendMail()">
+                                <h1 style="text-align: center">Invia e-mail</h1>
+                                <label >Oggetto</label>
+                                    <input id="oggetto" name="oggetto" type="text"  placeholder="Oggetto">
+                                <label>Messaggio</label>
+                                <textarea id="corpo" placeholder="Scrivi messaggio"></textarea>
+                                <input type="submit" value="Invia">
+                            </form>
+                        </div>
+                </div>
+            </div>  
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>  <!--include i popper e non  jquery-->
+            <script src="js/script.js"></script>         
+</body>
+</html>

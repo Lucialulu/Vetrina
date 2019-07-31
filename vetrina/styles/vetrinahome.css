@@ -1,0 +1,55 @@
+html, body{
+	height:100%;
+}
+
+.container-fluid, .row{
+  height: 100%;
+}
+
+
+
+.col-sm-4{
+  padding-left: 0px !important;
+  padding-right: 0px !important; 
+}
+
+.navbar-brand{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+  color: black;
+}
+
+.p{
+    font-size: medium;
+
+}
+
+.dati_personali{
+	margin-left: 15px;
+	font-size: x-large;
+}
+
+.control-label{
+	margin-left: 15px;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%; // Definisco l'aspect ratio
+  height: 0;
+  overflow: hidden;
+  
+}
+.google-maps > iframe {
+  position: absolute;
+  top: 10%;
+  left:0px;
+  width: 100% !important;
+  height: 50% !important;
+  
+ 
+}
+
